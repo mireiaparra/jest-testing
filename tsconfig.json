@@ -13,7 +13,11 @@
     "esModuleInterop": true,
     "baseUrl": "./src/",
     "paths": {
-      "#*": ["*"]
+      "@common/*": ["src/common/*"],
+      "@pods/*": ["src/pods/*"],
+      "@core/*": ["src/core/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@scenes/*": ["src/scenes/*"]
     }
   },
   "include": [
